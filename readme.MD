@@ -20,8 +20,6 @@ e.g.
 Add similar code in your functions.php or your plugin
 
 ```php
-add_filter( 'gtmu_register_multiselect_taxonomies_options', 'gtmu_taxonomies_options' );
-// Register operator fields
 // Inner Array key (element/listing) in the demo code is the taxonomy slug
 function gtmu_taxonomies_options() {
 	$taxonomies_options = [
@@ -37,6 +35,7 @@ function gtmu_taxonomies_options() {
 
 	return $taxonomies_options;
 }
+add_filter( 'gtmu_register_multiselect_taxonomies_options', 'gtmu_taxonomies_options' );
 ```
 
 Note: The plugin does not work with hierarchical taxonomies

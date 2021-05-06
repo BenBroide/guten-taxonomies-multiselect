@@ -16,6 +16,7 @@ e.g.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
 == How to use ==
+
 Add similar code in your functions.php or your plugin
 
 ```php

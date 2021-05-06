@@ -38,3 +38,5 @@ function gtmu_taxonomies_options() {
 	return $taxonomies_options;
 }
 ```
+
+Note: The plugin does not work with hierarchical taxonomies

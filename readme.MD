@@ -21,7 +21,7 @@ Add similar code in your functions.php or your plugin
 
 ```php
 // Inner Array key (element/listing) in the demo code is the taxonomy slug
-function gtmu_taxonomies_options() {
+function gtmu_taxonomies_options($taxonomies_options) {
 	$taxonomies_options = [
 		'element' => [
 			'post_type' => 'post',

@@ -1,0 +1,13 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/guten-taxonomies-multiselect-ui",
+	"title": "Guten Taxonomies Multiselect UI",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Replace Gutenberg Taxonomi UI with mulitselect",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "guten-taxonomies-multiselect-ui",
+	"style": "file:./build/style-index.css"
+}

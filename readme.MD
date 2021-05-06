@@ -22,13 +22,14 @@ Add similar code in your functions.php or your plugin
 ```php
 add_filter( 'gtmu_register_multiselect_taxonomies_options', 'gtmu_taxonomies_options' );
 // Register operator fields
+// Inner Array key (element/listing) in the demo code is the taxonomy slug
 function gtmu_taxonomies_options() {
 	$taxonomies_options = [
 		'element' => [
 			'post_type' => 'post',
 			'is_multiple' => false
 		],
-		'promo_type' => [
+		'listing' => [
 			'post_type' => 'post',
 			'is_multiple' => true
 		]
